@@ -19,7 +19,7 @@
             {
                 int vmassiv;
                 bool uni;
-                do              
+                do
                 {
                     vmassiv = rnd.Next(-a, a + 1);
                     uni = true;
@@ -38,7 +38,7 @@
 
             }
             Console.WriteLine();
-            for (int i = 0; i < a; ++i) 
+            for (int i = 0; i < a; ++i)
             {
                 if (Math.Abs(maxi) < Math.Abs(numbers[i]))
                 {
