@@ -14,7 +14,7 @@
         {
             Console.WriteLine("Машина 1");
             Car car1 = new Car(); // машина 1
-            car1.Carnumber = "OK123I";
+            car1.Carnumber = "ОКЭИ123";
             car1.Kind = "Aurus";
             car1.Colour = "Черный";
             car1.Currentspeed = 21;

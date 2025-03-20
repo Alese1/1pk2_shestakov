@@ -25,7 +25,7 @@
                 'Ы', 'Э', 'Ю', 'Я', 'a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U', 'Y', 'y' };
             for (int i = 0; i < a.Length; i++)
             {
-                if (a[i] != ' ') // не знаю как решить не используя строки
+                if (a[i] != ' ')
                 {
                     bool flagglsn = false;
                     for (int j = 0; j < chars.Length; j++)
